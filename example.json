@@ -1,0 +1,22 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:eu-central-1:123456789012:cloudfront-logs-topic:00000000-0000-0000-0000-000000000000",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "00000000-0000-0000-0000-000000000000",
+                "TopicArn": "arn:aws:sns:eu-central-1:123456789012:cloudfront-logs-topic",
+                "Subject": "Amazon S3 Notification",
+                "Message": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"eu-central-1\",\"eventTime\":\"2026-01-01T00:00:00.000Z\",\"eventName\":\"ObjectCreated:Put\",\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"S3ToSNS\",\"bucket\":{\"name\":\"example-cloudfront-logs-bucket\",\"arn\":\"arn:aws:s3:::example-cloudfront-logs-bucket\"},\"object\":{\"key\":\"EXAMPLEDISTID.2026-01-01-00.abcdef12.gz\",\"size\":12345}}}]}",
+                "Timestamp": "2026-01-01T00:00:00.000Z",
+                "SignatureVersion": "1",
+                "Signature": "EXAMPLE_SIGNATURE_PLACEHOLDER",
+                "SigningCertUrl": "https://sns.eu-central-1.amazonaws.com/SimpleNotificationService-EXAMPLE.pem",
+                "UnsubscribeUrl": "https://sns.eu-central-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-central-1:123456789012:cloudfront-logs-topic:00000000-0000-0000-0000-000000000000",
+                "MessageAttributes": {}
+            }
+        }
+    ]
+}
