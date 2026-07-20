@@ -1,5 +1,7 @@
 # s3-event-parser
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?logo=awslambda&logoColor=white)
+
 CloudFront drops gzipped access logs into S3 on its own schedule. This Lambda picks them up via SNS, parses the 33-column tab-separated format, and bulk-indexes the records into OpenSearch where you can actually graph them.
 
 Full architecture write-up: [CloudFront Logs to OpenSearch Using AWS Lambda](https://furkangungor.medium.com/cloudfront-logs-to-opensearch-using-aws-lambda-c92d0b4916c8).
