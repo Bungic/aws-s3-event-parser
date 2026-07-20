@@ -1,4 +1,4 @@
-# s3-event-parser
+# aws-s3-event-parser
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?logo=awslambda&logoColor=white)
 
@@ -83,3 +83,7 @@ The script writes records but doesn't manage index templates or ISM policies. De
 ## License
 
 Released under MIT, full text in [LICENSE](LICENSE).
+
+---
+
+Part of my cloud-engineering portfolio → **[frkangungor.com](https://frkangungor.com)**
